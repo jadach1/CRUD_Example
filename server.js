@@ -6,7 +6,7 @@ var     express = require('express'),
  	 { Pool } = require('pg')
         app = express();
 
-var connect = "postgres://jacob:f1r3place@localhost/postgres";
+var connect = "postgres://jacob:$password@localhost/postgres";
 
 const pool = new Pool({
   connectionString: connect,
