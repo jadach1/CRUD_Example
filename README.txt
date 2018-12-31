@@ -7,6 +7,6 @@ age integer,
 CONSTRAINT person_pkey PRIMARY KEY (id)
 );
 
-once you have cloned the repo you can run the command "node server.js" and proceed to https://localhost:3000/
+once you have cloned the repo you can run the command "node server.js" and proceed to https://localhost:3000/ , you will first need the correct password in the string located inside server.js
 
 NOTE:  node version upon creation was v10.14.1
